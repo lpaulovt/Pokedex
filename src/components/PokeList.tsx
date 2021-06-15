@@ -6,8 +6,15 @@ export function PokeList(){
   return(
     <div className={styles.contentList}>
       <div className={styles.screen}>
-        <PokeItem/>
-        <PokeItem/>
+        <section>
+          <PokeItem/>
+          <PokeItem/>
+          <PokeItem/>
+          <PokeItem/>
+          <PokeItem/>
+          <PokeItem/>
+          <PokeItem/>
+        </section>
       </div>
     </div>
   );

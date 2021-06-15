@@ -28,3 +28,27 @@
 
   border-radius: 15px;
 }
+
+.screen section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+  overflow: auto;
+}
+
+.screen section::-webkit-scrollbar{
+  width: 10px;
+}
+
+.screen section::-webkit-scrollbar-track{
+  background: var(--title);
+  border-radius: 10px;
+}
+
+.screen section::-webkit-scrollbar-thumb{
+  width: 5px;
+  background: var(--yellow);
+  border-radius: 10px;
+}
