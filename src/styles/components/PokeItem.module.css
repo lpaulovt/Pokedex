@@ -1,0 +1,9 @@
+.pokeContainer{
+  width: 90%;
+  min-height: 150px;
+
+  background: var(--white);
+  border-radius: 10px;
+
+  margin: 10px 0;
+}

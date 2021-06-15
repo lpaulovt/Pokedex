@@ -1,0 +1,30 @@
+.contentList{
+  height: 82vh;
+
+  background: var(--red);
+
+  border-radius: 20px 0 0 20px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.screen{
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
+  align-items: center;
+
+  padding: 25px 0;
+
+  background: var(--gray);
+
+  border-radius: 15px;
+}
