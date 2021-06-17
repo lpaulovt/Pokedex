@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 import { PokeList } from '../components/PokeList'
+import { PokeOptions } from '../components/PokeOptions'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       
       <section>
         <PokeList/>
-        <div className={styles.contentList}></div>
+        <PokeOptions/>
       </section>
     </div>
   )
