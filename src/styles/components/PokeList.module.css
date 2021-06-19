@@ -13,6 +13,8 @@
   justify-content: center;
 
   text-align: center;
+
+  overflow: none;
 }
 
 .screen{
