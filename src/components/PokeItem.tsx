@@ -4,7 +4,7 @@ import styles from '../styles/components/PokeItem.module.css';
 
 export function PokeItem(){
   return(
-    <div className={styles.pokeContainer}>
+    <button className={styles.pokeContainer}>
       <div className={styles.pokeInfo}>
       <header>
         <h1>Bulbasaur</h1>
@@ -17,6 +17,6 @@ export function PokeItem(){
       </span>
       </div>
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="pokemon" />
-    </div>
+    </button>
   );
 }

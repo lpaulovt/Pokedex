@@ -4,12 +4,21 @@
 
   background: #81bd8c;
   border-radius: 10px;
+  border: none;
 
   margin: 10px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  outline: 0;
+
+  transition: 0.5s ease;
+}
+
+.pokeContainer:hover > img{
+  max-height: 9rem;
 }
 
 .pokeContainer img{
